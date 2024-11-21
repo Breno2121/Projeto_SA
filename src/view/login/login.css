@@ -11,25 +11,26 @@ body{
 main {
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 16px;
     padding: 40px;
     width: 50%;
-    margin: 200px auto;
+    margin: 100px auto;
     justify-content: center;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(8, 8, 8, 0.3);
 }
 
-.login .cadastro{
-    width: 50%;
-}
-
 .login{
-    border-right: 2px solid black;
     display: flex;
     flex-direction: column;
     
+}
+
+.criar-cadastro {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 .grupo-campos{
@@ -38,7 +39,8 @@ main {
    padding-right: 16px;
 }
 input{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 button{
     display: flex;
@@ -61,4 +63,6 @@ button:hover{
 }
 h1{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }

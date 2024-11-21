@@ -1,5 +1,3 @@
-
-
 export default class veiculos{
 
     private id:string
@@ -7,15 +5,11 @@ export default class veiculos{
     private marca:string
     private cor:string
     
-
-
 constructor(chassi:string,marca:string,cor:string){
-
    
     this.chassi = chassi
     this.marca = marca
     this.cor = cor
-
 }
 
 public getId(){
@@ -27,9 +21,7 @@ public getId(){
 public getMarca(){
      return this.marca
  }
-
  public getCor(){
     return this.cor
 }
-
 }
